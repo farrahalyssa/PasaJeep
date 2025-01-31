@@ -1,11 +1,11 @@
 import React from "react";
 import { createStackNavigator } from '@react-navigation/stack';
-import { AuthStackParamList } from "./types";
-import Intro from "../screens/auth/intro";
-import Register from "../screens/auth/register";
-import Login from "../screens/auth/login";
-import RoleSelection from "../screens/auth/roleSelection";
-import DriverRegistration from "../screens/auth/driverRegistration";
+import { AuthStackParamList } from "./Types";
+import Intro from "../screens/auth/Intro";
+import Register from "../screens/auth/Register";
+import Login from "../screens/auth/Login";
+import RoleSelection from "../screens/auth/RoleSelection";
+import DriverRegistration from "../screens/auth/DriverRegistration";
 import { NavigationContainer } from '@react-navigation/native';
 
 const AuthStack = createStackNavigator<AuthStackParamList>();

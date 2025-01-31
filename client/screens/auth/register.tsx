@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, TextInput, TouchableOpacity, Text } from 'react-native'
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
-import { AuthStackParamList } from '../../navigation/types';
+import { AuthStackParamList } from '../../navigation/Types';
 
 
 type RegisterProps = NativeStackScreenProps<AuthStackParamList, 'Register'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import {View, TextInput, Text, TouchableOpacity} from 'react-native'  
-import { AuthStackParamList } from '../../navigation/types'
+import { AuthStackParamList } from '../../navigation/Types'
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 
 type RoleSelectionProps = NativeStackScreenProps<AuthStackParamList, 'RoleSelection'>
