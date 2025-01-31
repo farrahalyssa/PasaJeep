@@ -20,3 +20,9 @@ export type AuthStackParamList = {
     RoleSelection: undefined;
 }
 
+export type MainTabParamList = {
+    //commuter
+    HomeCommuter: undefined; //but this should have user's location 
+    ProfileCommuter: Pick<User, 'id' | 'fullName' | 'email' | 'password' | 'role'>;
+
+} 

@@ -1,9 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import AuthNavigator from './navigation/AuthNavigator';
+import HomeCommuter from './screens/commuter/HomeCommuter';
+import MainNavigator from './navigation/MainNavigator';
+  // <AuthNavigator />
 
 export default function App() {
-  return <AuthNavigator />;
+  return( <AuthNavigator /> );
 
 }
 
@@ -15,3 +18,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+  // <View>
+    {/* <HomeCommuter /> */}
+  // </View>
