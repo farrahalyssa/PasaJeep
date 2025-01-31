@@ -4,6 +4,8 @@ import { AuthStackParamList } from "./types";
 import Intro from "../screens/auth/intro";
 import Register from "../screens/auth/register";
 import Login from "../screens/auth/login";
+import RoleSelection from "../screens/auth/roleSelection";
+import DriverRegistration from "../screens/auth/driverRegistration";
 import { NavigationContainer } from '@react-navigation/native';
 
 const AuthStack = createStackNavigator<AuthStackParamList>();
@@ -16,6 +18,9 @@ const AuthNavigator = () => {
                 <AuthStack.Screen name="Intro" component={Intro} />
                 <AuthStack.Screen name="Register" component={Register} />
                 <AuthStack.Screen name="Login" component={Login} />
+                <AuthStack.Screen name="DriverRegistration" component={DriverRegistration} />
+                <AuthStack.Screen name="RoleSelection" component={RoleSelection} />
+
             </AuthStack.Navigator>
         </NavigationContainer>
     )

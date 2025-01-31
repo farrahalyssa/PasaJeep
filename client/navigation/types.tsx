@@ -16,5 +16,7 @@ export type AuthStackParamList = {
     // Login: Pick<User, 'id' | 'fullName' | 'email' | 'password' | 'role'>;
     Login: undefined;
     Register: undefined;
+    DriverRegistration: undefined;
+    RoleSelection: undefined;
 }
 

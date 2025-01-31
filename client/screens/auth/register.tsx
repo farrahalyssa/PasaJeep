@@ -13,7 +13,7 @@ const Register = ({navigation}: RegisterProps) => {
         <TextInput><Text>Email</Text></TextInput>
         <TextInput><Text>Password</Text></TextInput>
         <TextInput><Text>Confirm Password</Text></TextInput>
-        <TouchableOpacity><Text>Register</Text></TouchableOpacity>
+        <TouchableOpacity onPress={()=>{navigation.navigate('RoleSelection')}}><Text>Register</Text></TouchableOpacity>
         <Text>Already have an account? <TouchableOpacity onPress={()=>{navigation.navigate('Login')}}><Text>Sign in</Text></TouchableOpacity></Text>
    </View>
   )

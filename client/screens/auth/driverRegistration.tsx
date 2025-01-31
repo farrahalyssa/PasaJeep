@@ -1,7 +1,11 @@
 import React from 'react'
 import {View, TextInput, Text, TouchableOpacity} from 'react-native'  
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { AuthStackParamList } from '../../navigation/types';
 
-const DriverRegistration = () => {
+type DriverRegistrationProps = NativeStackScreenProps<AuthStackParamList, 'DriverRegistration'>
+
+const DriverRegistration = ({navigation}: DriverRegistrationProps) => {
   return (
     <View>
         <Text>Provide your details</Text>
