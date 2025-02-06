@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { Searchbar } from 'react-native-paper';
-import { View, TouchableOpacity, Text } from 'react-native';
+import { View, TouchableOpacity, Text, SafeAreaView} from 'react-native';
 
 const HomeCommuter = () => {
     const [searchQuery, setSearchQuery] = useState('');
   return (
-    <View>
+    <SafeAreaView>
         <Searchbar 
         placeholder="Search a location"
         value={searchQuery}
@@ -20,7 +20,7 @@ const HomeCommuter = () => {
             <Text>Northgate Cyberzone</Text>
 
         </View>
-     </View>
+     </SafeAreaView>
   )
 }
 

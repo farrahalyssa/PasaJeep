@@ -1,9 +1,9 @@
 import React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, SafeAreaView, Text, TouchableOpacity } from 'react-native'
 
 const ProfileDriver = () => {
   return (
-    <View>
+    <SafeAreaView>
         <View>
             <Text>Eduardo Dela Cruz</Text> 
             <Text>Commuter</Text>
@@ -31,7 +31,7 @@ const ProfileDriver = () => {
         <TouchableOpacity><Text>Log out</Text></TouchableOpacity>
 
 
-    </View>
+    </SafeAreaView>
   )
 }
 

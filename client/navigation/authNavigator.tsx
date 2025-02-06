@@ -17,7 +17,13 @@ const AuthStack = createStackNavigator<AuthStackParamList>();
 const AuthNavigator = () => {
     return(
         <NavigationContainer>
-            <AuthStack.Navigator>
+        <AuthStack.Navigator 
+                        screenOptions={{
+                            headerShown: true,  
+                            headerTitle: '',
+                            cardStyle: { backgroundColor: 'white' }, 
+                        }}
+                    >                
                 <AuthStack.Screen name="Intro" component={Intro} />
                 <AuthStack.Screen name="Register" component={Register} />
                 <AuthStack.Screen name="Login" component={Login} />

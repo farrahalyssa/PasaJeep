@@ -1,8 +1,8 @@
 import React from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, SafeAreaView,  } from 'react-native'
 const ProfileCommuter = () => {
   return (
-    <View>
+    <SafeAreaView>
         <View>
             <Text>Freen Sarocha</Text> 
             <Text>Commuter</Text>
@@ -30,7 +30,7 @@ const ProfileCommuter = () => {
         <TouchableOpacity><Text>Log out</Text></TouchableOpacity>
 
 
-    </View>
+    </SafeAreaView>
   )
 }
 

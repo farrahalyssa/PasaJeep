@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { View, Text, TouchableOpacity } from 'react-native'
+import { View, Text, TouchableOpacity, SafeAreaView } from 'react-native'
 import { Searchbar } from 'react-native-paper'
 
 const HomeDriver = () => {
@@ -7,7 +7,7 @@ const HomeDriver = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
   return (
-   <View>
+   <SafeAreaView>
         <Text>Set Destination</Text>
         <Text>Select your destination from the map</Text>
         <Searchbar
@@ -18,7 +18,7 @@ const HomeDriver = () => {
 
         {/* insert map */}
 
-   </View>
+   </SafeAreaView>
   )
 }
 

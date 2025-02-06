@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 33">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="ui-controls_id-badge" data-name="ui-controls id-badge">
+      <path class="cls-1" d="M16,6H3c-1.1,0-2,.9-2,2v22c0,1.1.9,2,2,2h34c1.1,0,2-.9,2-2V8c0-1.1-.9-2-2-2h-13"/>
+      <path class="cls-1" d="M19,27c0-2-3-5-7-5s-7,3-7,5"/>
+      <line class="cls-2" x1="24" y1="16" x2="34" y2="16"/>
+      <line class="cls-2" x1="24" y1="20" x2="34" y2="20"/>
+      <line class="cls-2" x1="24" y1="24" x2="34" y2="24"/>
+      <path class="cls-1" d="M20,1h0c2.21,0,4,1.79,4,4v4h-8v-4c0-2.21,1.79-4,4-4Z"/>
+      <circle cx="20" cy="5" r="1"/>
+      <path class="cls-2" d="M12,12h0c2.15,0,3.89,1.74,3.89,3.89v2.22c0,2.15-1.74,3.89-3.89,3.89h0c-2.15,0-3.89-1.74-3.89-3.89v-2.22c0-2.15,1.74-3.89,3.89-3.89Z"/>
+    </g>
+  </g>
+</svg>
