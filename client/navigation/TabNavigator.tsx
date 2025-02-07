@@ -6,19 +6,19 @@ import { NavigationContainer } from '@react-navigation/native';
 import HomeCommuter from '../screens/commuter/HomeCommuter';
 import Profile from '../screens/main/Profile';
 
-const MainTab = createBottomTabNavigator(); 
+const Tab = createBottomTabNavigator(); 
 
-const MainNavigator = () => {
+const TabNavigator = () => {
   return (
     <NavigationContainer >
-      <MainTab.Navigator initialRouteName="HomeCommuter">
-        <MainTab.Screen name="HomeCommuter" component={HomeCommuter}  />
-        <MainTab.Screen name="Profile" component={Profile}  />
+      <Tab.Navigator initialRouteName="HomeCommuter">
+        <Tab.Screen name="HomeCommuter" component={HomeCommuter}  />
+        <Tab.Screen name="Profile" component={Profile}  />
 
-      </MainTab.Navigator>
+      </Tab.Navigator>
     </NavigationContainer>
 
   )
 }
 
-export default MainNavigator
+export default TabNavigator

@@ -39,7 +39,7 @@ export const styles = StyleSheet.create({
         width:'80%',
         borderRadius: 100
     },
-    texInput:{
+    textInput:{
         margin:'2%',
         backgroundColor: '#D3D3D3',
         padding:'4%',

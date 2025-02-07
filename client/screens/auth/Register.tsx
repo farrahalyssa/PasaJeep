@@ -13,10 +13,10 @@ const Register = ({navigation}: RegisterProps) => {
           <Text style={styles.title}>Welcome to PasaJeep!</Text>
           <Text style={styles.textBody}>Track Your Pasajeep Fleet in Real-Time</Text>
         </View>
-          <TextInput style={styles.texInput}><Text>Full name</Text></TextInput>
-          <TextInput style={styles.texInput}><Text>Email</Text></TextInput>
-          <TextInput style={styles.texInput}><Text>Password</Text></TextInput>
-          <TextInput style={styles.texInput}><Text>Confirm Password</Text></TextInput>
+          <TextInput style={styles.textInput}><Text>Full name</Text></TextInput>
+          <TextInput style={styles.textInput}><Text>Email</Text></TextInput>
+          <TextInput style={styles.textInput}><Text>Password</Text></TextInput>
+          <TextInput style={styles.textInput}><Text>Confirm Password</Text></TextInput>
         <View style={{width:'100%'}}>
           <TouchableOpacity style={[styles.button]} onPress={()=>{navigation.navigate('RoleSelection')}}><Text style={styles.buttonText}>Register</Text></TouchableOpacity>
         </View>

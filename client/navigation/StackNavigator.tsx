@@ -11,26 +11,26 @@ import Login from "../screens/auth/Login";
 import RoleSelection from "../screens/auth/RoleSelection";
 import DriverRegistration from "../screens/auth/DriverRegistration";
 
-const AuthStack = createStackNavigator<AuthStackParamList>();
+const Stack = createStackNavigator<AuthStackParamList>();
 
 
 const AuthNavigator = () => {
     return(
         <NavigationContainer>
-        <AuthStack.Navigator 
+        <Stack.Navigator 
                         screenOptions={{
                             headerShown: true,  
                             headerTitle: '',
                             cardStyle: { backgroundColor: 'white' }, 
                         }}
                     >                
-                <AuthStack.Screen name="Intro" component={Intro} />
-                <AuthStack.Screen name="Register" component={Register} />
-                <AuthStack.Screen name="Login" component={Login} />
-                <AuthStack.Screen name="DriverRegistration" component={DriverRegistration} />
-                <AuthStack.Screen name="RoleSelection" component={RoleSelection} />
+                <Stack.Screen name="Intro" component={Intro} />
+                <Stack.Screen name="Register" component={Register} />
+                <Stack.Screen name="Login" component={Login} />
+                <Stack.Screen name="DriverRegistration" component={DriverRegistration} />
+                <Stack.Screen name="RoleSelection" component={RoleSelection} />
 
-            </AuthStack.Navigator>
+            </Stack.Navigator>
         </NavigationContainer>
     )
 }

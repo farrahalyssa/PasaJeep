@@ -14,11 +14,11 @@ const DriverRegistration = ({navigation}: DriverRegistrationProps) => {
       </View>
         <Text style={[styles.textBody, {marginHorizontal:'12%', marginBottom:'4%'}]}>Provide your details</Text>
         <View style={{width:'100%', alignItems:'center'}}>
-        <TextInput editable={false} style={styles.texInput}><Text>Eduardo Dela Cruz</Text></TextInput>
-        <TextInput style={styles.texInput}><Text>Jeepney Plate no.</Text></TextInput>
-        <TextInput style={styles.texInput}><Text>Route or Franchise details</Text></TextInput>
+        <TextInput editable={false} style={styles.textInput}><Text>Eduardo Dela Cruz</Text></TextInput>
+        <TextInput style={styles.textInput}><Text>Jeepney Plate no.</Text></TextInput>
+        <TextInput style={styles.textInput}><Text>Route or Franchise details</Text></TextInput>
         <View style={{width:'100%', alignItems:'center'}}>
-            <TextInput style={styles.texInput}><Text>Jeepney Model and Year</Text></TextInput>
+            <TextInput style={styles.textInput}><Text>Jeepney Model and Year</Text></TextInput>
             <Text style={{fontFamily:'Poppins_300Light',fontSize:10, marginTop:-5, fontStyle:'italic'}}>Format 'SR Jeepney Class II 2017'</Text>
         </View>
         <View style={{width:'100%'}}>

@@ -15,8 +15,8 @@ const Login = ({navigation}: LoginProps) => {
 
         <View>
         </View>
-        <TextInput style={styles.texInput}><Text>Email</Text></TextInput>
-        <TextInput style={styles.texInput}><Text>Password</Text></TextInput>
+        <TextInput style={styles.textInput}><Text>Email</Text></TextInput>
+        <TextInput style={styles.textInput}><Text>Password</Text></TextInput>
        
         <View style={{width:'100%'}}>
           <TouchableOpacity style={[styles.button, {marginBottom:'2%'}]}><Text style={styles.buttonText}>SignIn</Text></TouchableOpacity>
