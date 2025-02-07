@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, SafeAreaView, TextInput, Text, TouchableOpacity} from 'react-native'  
+import {View, SafeAreaView, TextInput,Image, Text, TouchableOpacity} from 'react-native'  
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { AuthStackParamList } from '../../navigation/Types';
 import { styles } from '../styles';
@@ -8,8 +8,11 @@ type DriverRegistrationProps = NativeStackScreenProps<AuthStackParamList, 'Drive
 const DriverRegistration = ({navigation}: DriverRegistrationProps) => {
   return (
     <SafeAreaView>
+      <View style={{marginTop: '10%', alignItems:'center'}}>
         <Text style={[styles.title, {textAlign:'center'}]}>Driver Registration</Text>
-        <Text style={[styles.textBody, {marginHorizontal:'12%'}]}>Provide your details</Text>
+        <Image source={require("../../assets/Icon/Logo/switch.png")} />
+      </View>
+        <Text style={[styles.textBody, {marginHorizontal:'12%', marginBottom:'4%'}]}>Provide your details</Text>
         <View style={{width:'100%', alignItems:'center'}}>
         <TextInput editable={false} style={styles.texInput}><Text>Eduardo Dela Cruz</Text></TextInput>
         <TextInput style={styles.texInput}><Text>Jeepney Plate no.</Text></TextInput>

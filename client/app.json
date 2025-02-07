@@ -8,9 +8,9 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/Icon/Logo/PasaJeep_Logo.png",
+      "image": "./assets/Icon/Logo/PasaJeepLogo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "white"
     },
     "ios": {
       "supportsTablet": true,
@@ -18,12 +18,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/Icon/Logo/PasaJeepLogo.png",
+        "backgroundColor": "white"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/Icon/Logo/PasaJeepLogo.png"
     },
     "plugins": [
       "expo-font"

@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
 import HomeCommuter from '../screens/commuter/HomeCommuter';
-import ProfileCommuter from '../screens/commuter/ProfileCommuter';
+import Profile from '../screens/main/Profile';
 
 const MainTab = createBottomTabNavigator(); 
 
@@ -13,7 +13,7 @@ const MainNavigator = () => {
     <NavigationContainer >
       <MainTab.Navigator initialRouteName="HomeCommuter">
         <MainTab.Screen name="HomeCommuter" component={HomeCommuter}  />
-        <MainTab.Screen name="ProfileCommuter" component={ProfileCommuter}  />
+        <MainTab.Screen name="Profile" component={Profile}  />
 
       </MainTab.Navigator>
     </NavigationContainer>
