@@ -14,7 +14,7 @@ export default function App() {
     Poppins_100Thin
   });
   return( 
-  <FindRide /> 
+  <StackNavigator /> 
   );
 
 }

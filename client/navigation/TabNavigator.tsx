@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
 
 import HomeCommuter from '../screens/commuter/HomeCommuter';
-import Profile from '../screens/main/Profile';
+import Profile from '../screens/shared/Profile';
 
 const Tab = createBottomTabNavigator(); 
 
